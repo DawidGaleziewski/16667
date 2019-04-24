@@ -7,8 +7,18 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+header, section {
+    padding: 10vh 20vw;
+}
+
 ul, ol, li {
     margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 .main-button {
@@ -28,6 +38,33 @@ ul, ol, li {
 
 
 /* TOP NAVIGATION - START */
+.main-nav {
+    padding: 4vh 20vw;
+    background-color: #87509c;
+}
+
+.main-nav__list {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.main-nav__list .list-item {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.main-nav__list .list-item:hover {
+    background-color: #643a79;
+}
+
+
+.main-nav__list .list-item > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
 /* TOP NAVIGATION - END */
 
 
