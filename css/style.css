@@ -22,7 +22,17 @@ a {
 }
 
 .main-button {
+    background-color: #eb7d4b;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 1rem 4.5rem;
+    display: inline-block;
+    border-radius: 4px;
+    border-bottom: 4px solid #c86b42;
 
+    margin-top: 5vh;
 }
 .section-header{
     
@@ -52,7 +62,7 @@ a {
 .main-nav__list .list-item {
     margin-right: 1rem;
     padding: 0.5rem 1rem;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .main-nav__list .list-item:hover {
@@ -71,6 +81,11 @@ a {
 
 
 /* HEADER - START */
+.main-header {
+    background-color: #87509c;
+    color: #fff;
+    text-align: center;
+}
 /* HEADER - END */
 
 
