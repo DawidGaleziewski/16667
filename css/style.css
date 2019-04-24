@@ -31,6 +31,7 @@ a {
     padding: 1rem 4.5rem;
     display: inline-block;
     border-radius: 4px;
+    border: none;
     border-bottom: 4px solid #c86b42;
 
     margin-top: 5vh;
@@ -238,6 +239,19 @@ a {
 
 
 /* REFERENCE - START */
+.reference {
+    background-color: #d74681;
+    color: #fff;
+}
+
+.reference .section-header {
+    color: #fff;
+}
+
+.reference .section-header-underline{
+    background-color: #b83c70;
+}
+
 /* REFERENCE - END */
 
 
