@@ -8,12 +8,13 @@ body {
 }
 
 header, section {
-    padding: 10vh 20vw;
+    padding: 10vh 10vw;
 }
 
 ul, ol, li {
     margin: 0;
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -35,11 +36,20 @@ a {
     margin-top: 5vh;
 }
 .section-header{
-    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
 }
 
-.section-header-underline {
 
+
+.section-header-underline {
+    border: none;
+    height: 3px;
+    width: 4rem;
+    background-color: #cad7e7;
+    display: block;
 }
 
 /* GENERAL STYLES - END */
@@ -93,6 +103,78 @@ a {
 
 
 /* TEAM - START */
+.team {
+    background-color: #e7f2f8;
+    text-align: center;
+
+}
+
+.team .section-header {
+    color: #3f4867;
+}
+
+.team__staff {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.staff-member__list {
+    text-align: center;
+}
+
+.staff-member__photo {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 300px;
+    background-color: #696969;
+    /* margin: 0 50%; */
+    display: inline-block;
+    margin: 0.5rem auto;
+
+}
+
+.staff-member__name {
+    text-align: center;
+    margin: 0.5rem auto;
+    color: #3f4867;
+    font-weight: bold;
+    
+}
+
+.staff-member:first-of-type .staff-member__name{
+    text-transform: uppercase;
+}
+
+.staff-member__work-title {
+    color: #5cb5d5;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+.staff-member__description {
+    margin: 1.5rem auto;
+    width: 60%;
+}
+
+.media__list li {
+    background-color: #cbccce;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 200px;
+    position: relative;
+}
+.staff-member__media .media__list i{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.media__list .facebook i {
+    left: 35%;
+}
 /* TEAM - END */
 
 
