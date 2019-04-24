@@ -40,6 +40,7 @@ a {
     text-align: center;
     font-size: 2rem;
     margin: 1rem 0;
+    color: #305174;
 }
 
 
@@ -51,6 +52,11 @@ a {
     background-color: #cad7e7;
     display: block;
 }
+
+.section__paragraph {
+    text-align: center;
+}
+
 
 /* GENERAL STYLES - END */
 
@@ -181,6 +187,51 @@ a {
 
 
 /* SKILLS - START */
+
+.skills__level {
+    display: flex;
+    justify-content: space-around;
+    margin-top:3rem;
+}
+
+.skills__level .item__circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 300px;
+    margin: 0.5rem auto;
+    position: relative;
+
+    border: 7px solid #34beef;
+
+}
+
+.item__circle .circle__number{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+}
+
+.skills__level .item__circle--pink {
+    border-color: #dc4781;
+
+}
+
+.skills__level .item__circle--green {
+    border-color: #10cbac;
+}
+
+.skills__level .item__circle--orange {
+    border-color: #eb7e46;
+}
+
+.skills__level .item__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
 /* SKILLS - END */
 
 
