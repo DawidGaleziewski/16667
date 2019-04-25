@@ -252,6 +252,47 @@ a {
     background-color: #b83c70;
 }
 
+.reference__customer-recomendations{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem auto;
+
+}
+
+.customer-recomendation {
+    display: flex;
+    width: 50%;
+    margin-top: 4rem;
+}
+.customer-recomendation__image {
+    width: 5rem;
+    height: 5rem;
+    background-color: #696969;
+    border-radius: 300px;
+    margin-right: 2rem;
+}
+
+.customer-recomendation__text {
+    width: 50%;
+}
+
+
+
+.customer-recomendation__description {
+    margin-bottom: 1.2rem;
+}
+
+.customer-recomendation__name {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.customer-recomendation__work-title {
+    color: #ffc9a6;
+}
+
 /* REFERENCE - END */
 
 
