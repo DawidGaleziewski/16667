@@ -347,8 +347,11 @@ a {
     background-color: #273a72;
     border: none;
     margin-top: 3%;
+    padding: 0.5rem;
+}
+
+.contact__form .form__textarea::placeholder {
     color: #7e849c;
-    padding: 1rem;
 }
 
 .contact__form .main-button {
