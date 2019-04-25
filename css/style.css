@@ -299,6 +299,62 @@ a {
 
 
 /* CONTACT - START */
+.contact {
+    background-color: #3c549a;
+}
+
+.contact .section-header {
+    color: #fff;
+}
+
+.contact .section-header-underline {
+    background-color: #25387a;
+}
+
+.contact__address {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact__form .form__name,
+.contact__form .form__email {
+    padding: 0.5rem;
+    width: 48%;
+    background-color: #273a72;
+    border: none;
+    color: white;
+}
+
+.contact__form .form__name::placeholder,
+.contact__form .form__email::placeholder {
+    color: #7e849c;
+}
+
+.contact__form .form__name {
+    margin-right: 4%;
+}
+
+
+.contact__form .form__textarea {
+    width: 100%;
+    background-color: #273a72;
+    border: none;
+    margin-top: 3%;
+    color: #7e849c;
+    padding: 1rem;
+}
+
+.contact__form .main-button {
+    background-color: #31bae6;
+    border-color: #2d9dc5;
+}
 /* CONTACT - END */
 
 
