@@ -250,7 +250,7 @@ a {
 .reference__customer-recomendations {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem auto;
+  margin: 0 auto;
 }
 
 .customer-recomendation {
