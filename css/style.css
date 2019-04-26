@@ -1,389 +1,367 @@
+/* ##TABLE OF CONTENTS##
+
+# 1 GENERAL STYLES
+# 2 NAVIGATION
+# 3 HEADER
+# 4 TEAM
+# 5 SKILLS
+# 6 REFERENCE
+# 7 CONTACT
+# 8 FOOTER */
+
 /* GENERAL STYLES - START */
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
-header, section {
-    padding: 10vh 10vw;
+header,
+section {
+  padding: 10vh 10vw;
 }
 
-ul, ol, li {
-    margin: 0;
-    list-style: none;
-    padding: 0;
+ul,
+ol,
+li {
+  margin: 0;
+  list-style: none;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .main-button {
-    background-color: #eb7d4b;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    font-weight: bold;
-    padding: 1rem 4.5rem;
-    display: inline-block;
-    border-radius: 4px;
-    border: none;
-    border-bottom: 4px solid #c86b42;
-
-    margin-top: 5vh;
+  display: inline-block;
+  padding: 1rem 4.5rem;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 4px solid #c86b42;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-top: 5vh;
+  background-color: #eb7d4b;
+  color: #fff;
+  text-transform: uppercase;
 }
-.section-header{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2rem;
-    margin: 1rem 0;
-    color: #305174;
+.section-header {
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #305174;
 }
-
-
 
 .section-header-underline {
-    border: none;
-    height: 3px;
-    width: 4rem;
-    background-color: #cad7e7;
-    display: block;
+  height: 3px;
+  width: 4rem;
+  border: none;
+  background-color: #cad7e7;
+  display: block;
 }
 
 .section__paragraph {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* GENERAL STYLES - END */
 
-
-
-
 /* TOP NAVIGATION - START */
 .main-nav {
-    padding: 4vh 20vw;
-    background-color: #87509c;
+  padding: 4vh 20vw;
+  background-color: #87509c;
 }
 
 .main-nav__list {
-    display: flex;
-    justify-content: flex-end;
-
+  display: flex;
+  justify-content: flex-end;
 }
 
 .main-nav__list .list-item {
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
 }
 
 .main-nav__list .list-item:hover {
-    background-color: #643a79;
+  background-color: #643a79;
 }
 
-
 .main-nav__list .list-item > a {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 /* TOP NAVIGATION - END */
 
-
-
-
 /* HEADER - START */
 .main-header {
-    background-color: #87509c;
-    color: #fff;
-    text-align: center;
+  background-color: #87509c;
+  color: #fff;
+  text-align: center;
 }
 /* HEADER - END */
 
-
-
-
-
 /* TEAM - START */
 .team {
-    background-color: #e7f2f8;
-    text-align: center;
-
+  background-color: #e7f2f8;
+  text-align: center;
 }
 
 .team .section-header {
-    color: #3f4867;
+  color: #3f4867;
 }
 
 .team__staff {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
 .staff-member__list {
-    text-align: center;
+  text-align: center;
 }
 
 .staff-member__photo {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 300px;
-    background-color: #696969;
-    /* margin: 0 50%; */
-    display: inline-block;
-    margin: 0.5rem auto;
-
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 300px;
+  background-color: #696969;
+  margin: 0.5rem auto;
 }
 
 .staff-member__name {
-    text-align: center;
-    margin: 0.5rem auto;
-    color: #3f4867;
-    font-weight: bold;
-    
+  text-align: center;
+  color: #3f4867;
+  font-weight: bold;
+  margin: 0.5rem auto;
 }
 
-.staff-member:first-of-type .staff-member__name{
-    text-transform: uppercase;
+.staff-member:first-of-type .staff-member__name {
+  text-transform: uppercase;
 }
 
 .staff-member__work-title {
-    color: #5cb5d5;
-    margin: 0.5rem auto;
-    text-align: center;
+  color: #5cb5d5;
+  text-align: center;
+  margin: 0.5rem auto;
 }
 
 .staff-member__description {
-    margin: 1.5rem auto;
-    width: 60%;
+  width: 60%;
+  margin: 1.5rem auto;
 }
 
 .media__list li {
-    background-color: #cbccce;
-    display: inline-block;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 200px;
-    position: relative;
+  display: inline-block;
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 200px;
+  background-color: #cbccce;
 }
-.staff-member__media .media__list i{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 25%;
-    left: 25%;
+
+.staff-member__media .media__list i {
+  position: absolute;
+  color: white;
+  display: inline-block;
+  top: 25%;
+  left: 25%;
 }
 
 .media__list .facebook i {
-    left: 35%;
+  left: 35%;
 }
 /* TEAM - END */
-
-
-
 
 /* SKILLS - START */
 
 .skills__level {
-    display: flex;
-    justify-content: space-around;
-    margin-top:3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
 }
 
 .skills__level .item__circle {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 300px;
-    margin: 0.5rem auto;
-    position: relative;
-
-    border: 7px solid #34beef;
-
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  border: 7px solid #34beef;
+  border-radius: 300px;
+  margin: 0.5rem auto;
 }
 
-.item__circle .circle__number{
-    font-size: 2.5rem;
-    position: absolute;
-    top: 30%;
-    left: 25%;
-
+.item__circle .circle__number {
+  position: absolute;
+  font-size: 2.5rem;
+  top: 30%;
+  left: 25%;
 }
 
 .skills__level .item__circle--pink {
-    border-color: #dc4781;
-
+  border-color: #dc4781;
 }
 
 .skills__level .item__circle--green {
-    border-color: #10cbac;
+  border-color: #10cbac;
 }
 
 .skills__level .item__circle--orange {
-    border-color: #eb7e46;
+  border-color: #eb7e46;
 }
 
 .skills__level .item__title {
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
 }
 /* SKILLS - END */
 
-
-
-
 /* REFERENCE - START */
 .reference {
-    background-color: #d74681;
-    color: #fff;
+  background-color: #d74681;
+  color: #fff;
 }
 
 .reference .section-header {
-    color: #fff;
+  color: #fff;
 }
 
-.reference .section-header-underline{
-    background-color: #b83c70;
+.reference .section-header-underline {
+  background-color: #b83c70;
 }
 
-.reference__customer-recomendations{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 4rem auto;
-
+.reference__customer-recomendations {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem auto;
 }
 
 .customer-recomendation {
-    display: flex;
-    width: 50%;
-    margin-top: 4rem;
+  display: flex;
+  width: 50%;
+  margin-top: 4rem;
 }
 .customer-recomendation__image {
-    width: 5rem;
-    height: 5rem;
-    background-color: #696969;
-    border-radius: 300px;
-    margin-right: 2rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: #696969;
+  border-radius: 300px;
+  margin-right: 2rem;
 }
 
 .customer-recomendation__text {
-    width: 50%;
+  width: 50%;
 }
 
-
-
 .customer-recomendation__description {
-    margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .customer-recomendation__name {
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .customer-recomendation__work-title {
-    color: #ffc9a6;
+  color: #ffc9a6;
 }
 
 /* REFERENCE - END */
 
-
-
-
 /* CONTACT - START */
 .contact {
-    background-color: #3c549a;
+  background-color: #3c549a;
 }
 
 .contact .section-header {
-    color: #fff;
+  color: #fff;
 }
 
 .contact .section-header-underline {
-    background-color: #25387a;
-    margin-bottom: 1rem;
+  background-color: #25387a;
+  margin-bottom: 1rem;
 }
 
 .contact__address {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 3rem;
-    font-style: normal;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-style: normal;
 }
 
 .contact__form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contact__form .form__name,
 .contact__form .form__email {
-    padding: 0.5rem;
-    width: 48%;
-    background-color: #273a72;
-    border: none;
-    color: white;
+  padding: 0.5rem;
+  width: 48%;
+  background-color: #273a72;
+  border: none;
+  color: white;
 }
 
 .contact__form .form__name::placeholder,
 .contact__form .form__email::placeholder {
-    color: #7e849c;
+  color: #7e849c;
 }
 
 .contact__form .form__name {
-    margin-right: 4%;
+  margin-right: 4%;
 }
 
-
 .contact__form .form__textarea {
-    width: 100%;
-    background-color: #273a72;
-    border: none;
-    margin-top: 3%;
-    padding: 0.5rem;
-    color: #fff;
+  width: 100%;
+  background-color: #273a72;
+  border: none;
+  margin-top: 3%;
+  padding: 0.5rem;
+  color: #fff;
 }
 
 .contact__form .form__textarea::placeholder {
-    color: #7e849c;
+  color: #7e849c;
 }
 
 .contact__form .main-button {
-    background-color: #31bae6;
-    border-color: #2d9dc5;
+  background-color: #31bae6;
+  border-color: #2d9dc5;
 }
 /* CONTACT - END */
 
-
-
-
 /* FOOTER - START */
 .footer {
-    border-top: 1px solid #4e69b0;
-    background-color: #344b8e;
+  border-top: 1px solid #4e69b0;
+  background-color: #344b8e;
 }
 
 .footer__media {
-    display: flex;
-    padding: 4vh;
-    color: #fff;
-    justify-content: center;
+  display: flex;
+  padding: 4vh;
+  color: #fff;
+  justify-content: center;
 }
 
 .footer__media .media__item {
-    margin-right: 4rem;
+  margin-right: 4rem;
 }
 
 .footer__media .media__item a {
-    color: #fff;
+  color: #fff;
 }
 /* FOOTER - END */
