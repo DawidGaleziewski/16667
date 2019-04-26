@@ -184,6 +184,13 @@ a {
 
 /* SKILLS - START */
 
+.skills .section__paragraph {
+    max-width: 60vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
 .skills__level {
   display: flex;
   justify-content: space-around;
